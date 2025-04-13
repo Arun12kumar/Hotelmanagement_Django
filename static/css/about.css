@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar styles  */
+.nav-container{
+    display: flex;
+    height: 59px;
+    align-items: center;
+    background-color: #F1F6FA;
+    gap: 25px;
+    padding: 0 120px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.items:nth-of-type(1){
+    flex-grow: 1;
+}
+
+#logo{
+    width: 50px;
+}
+.nav-container .items a{
+    color: #3A483F;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#btns{
+    width: 90px;
+    height: 34px;
+    border-radius: 25px;
+    border: none;
+    background-color: #1B3333;
+    cursor: pointer;
+    transition: 500ms;
+    padding: 4px 8px;
+    font-size: 14px;
+    color:#fff;
+}
+#logoavatar{
+    width: 22px;
+    
+}
+
+/* navbar styles end */
+.imageabout{
+    height: 60vh;
+    width: 100vw;
+    background-image: url('/static/images/hotelimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imageabout h1{
+    font-size: 50px;
+    color: #CEC286;
+    font-weight: 500;
+    
+    transition: 400ms;
+}
+.imageabout h1:hover{
+    color: #2f3030;
+    text-shadow: 1px 1px 1px rgb(238, 232, 232);
+    transform: scale(1.05);
+    font-weight: 500;
+}
+
+.aboutmain2{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    gap: 50px;
+}
+
+.aboutimg{
+    width: 30vw;
+}
+.aboutimg img{
+    width: 400px;
+    height: 400px;
+}
+.content{
+    width: 30vw;
+    
+}
+.content h1{
+    color: #CEC286;
+    padding: 16px 0;
+}
+
+.viewrooms a{
+    text-decoration: none;
+    color: #CEC286;
+    transition: 200ms;
+}
+.viewrooms a:hover{
+    color: #000;
+}
+
+.gridsystem{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
+}
+
+.grid-item1{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-item2{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: auto;
+}
+.grid-item3{
+    
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url('/static/images/Hotel-WordPress-Theme-Column-Background-image-9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px 40px;
+}
+.grid-item4{
+    
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+}
+.grid-item4 p{
+    padding: 20px 30px;
+    color: #fff;
+}
+.grid-item1 h1{
+    padding: 20px 30px;
+    color: #CEC286;
+}
+.grid-item1 h3{
+    padding: 0 30px;
+    color: #fff;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+#dash{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#login{
+    width: 70px;
+    height: 34px;
+    background-color: #DE064F;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: 300ms;
+}
+#login:hover{
+    transform: scale(1.06);
+    background-color: #9BC7E2;
+    color: #000;
+}
